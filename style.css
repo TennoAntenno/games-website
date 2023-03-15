@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.age{
+    color: rgb(40, 94, 241);
+}
+
+.title{
+    font-size: 2rem;
+    height: 100vh;
+    display:flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: 80px 80px;
+    background-position-x: center;
+    background-position-y: center;
+    background-image: radial-gradient(circle, #1b1b1b 3px, rgb(243, 26, 26, 0) 0px);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.main{
+    background-color: rgb(7, 7, 7);
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
